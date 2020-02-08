@@ -1,7 +1,25 @@
 body {
   display: flex;
+  flex-direction: column;
   font-family: sans-serif;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: #a2b1789f;
+  color: #e36c3e;
+  text-shadow: 1px 1px 1px #000;
+}
+#btn {
+  padding: 1em;
+  outline: none;
+  border: none;
+  background: #aaaaaa;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1em;
+  transition: .3s;
+}
+#btn:hover {
+  background: #8ac149;
 }
