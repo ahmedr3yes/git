@@ -9,6 +9,12 @@ body {
   color: #e36c3e;
   text-shadow: 1px 1px 1px #000;
 }
+h1 {
+  transition: .5s;
+}
+h1:hover {
+  color: #feea3b;
+}
 #btn {
   padding: 1em;
   outline: none;
